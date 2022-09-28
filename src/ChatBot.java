@@ -40,6 +40,13 @@ public class ChatBot {
         return num1 + num2 + num3;
     }
 
+    public int multiplyNumbers(int num1, int num2, int num3) {
+        return num1 * num2 * num3;
+    }
+
+    public void location(String location) {
+        System.out.println("Oh, thats where you are. I wont stalk you I promise. ");
+    }
 
     // method that RETURNS a goodbye message as a String -- note there is no printing here!
     public String goodbye() {

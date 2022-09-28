@@ -15,6 +15,11 @@ public class ChatBotRunner {
         int sumOfNumbers = debbie.addNumbers(1, 2, 3);
         System.out.println("The sum of 1, 2, and 3 is: " + sumOfNumbers);
 
+        int product = debbie.multiplyNumbers(1, 2, 3);
+        System.out.println("The product of 1, 2, 3 is: " + product);
+
+        debbie.location("Brooklyn");
+
         String adios = debbie.goodbye();
         System.out.println(adios);
 
